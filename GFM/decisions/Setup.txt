@@ -1063,6 +1063,10 @@ political_decisions = {
                 name = ottoman_oppression
                 duration = -1
             }
+			add_country_modifier = {
+                name = Caliphate
+                duration = -1
+            }
             enable_canal = 4
             enable_canal = 5
             enable_canal = 6
@@ -1272,7 +1276,7 @@ political_decisions = {
                 limit = { OR = { has_pop_culture = turkish has_pop_culture = circassian has_pop_culture = chechen } }
                 literacy = 0.02
             }
-
+			add_country_modifier = Jizya_Egypt
             any_pop = {
                 limit = {
                     NOT = { has_pop_religion = sunni }
